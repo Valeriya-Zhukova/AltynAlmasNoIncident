@@ -1,0 +1,20 @@
+{
+	"$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+	"solution": {
+		"name": "NoIncident",
+		"id": "5674bb08-cede-49f5-8202-b97719d9dee3",
+		"version": "1.0.0.1",
+		"includeClientSideAssets": true,
+		"isDomainIsolated": false,
+		"developer": {
+			"name": "Contoso",
+			"privacyUrl": "https://contoso.com/privacy",
+			"termsOfUseUrl": "https://contoso.com/terms-of-use",
+			"websiteUrl": "https://contoso.com/my-app",
+			"mpnId": "000000"
+		}
+	},
+	"paths": {
+		"zippedPackage": "solution/no-incident.sppkg"
+	}
+}

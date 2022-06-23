@@ -1,0 +1,104 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+
+.noIncident {
+  .container {
+    max-width: 368px;
+    height: 400px;
+    margin: 70px auto 0 auto;
+
+    background-image: url("/SiteAssets/Dev/dwi.jpg");
+    background-size: cover;
+
+    font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue",
+      sans-serif;
+  }
+
+  .color {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.2);
+    height: 400px;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .color:hover .opas {
+    opacity: 0;
+  }
+
+  .square {
+    width: 300px;
+    text-align: left;
+  }
+  .title {
+    font-size: 1.4rem;
+    color: #d8be88;
+  }
+
+  .title1 {
+    padding: 1rem;
+    text-align: center;
+}
+
+  .subTitle {
+    color: white;
+    font-size: 1rem;
+    padding: 1rem 1rem 2.3rem 1rem;
+    border-right-color: #d8be88;
+    border-width: 0px 1px 0px 0px;
+    border-style: solid;
+    width: 120px;
+  }
+
+  .project {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 10px;
+  }
+
+  .back {
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .number {
+    margin: 3px 10px 3px 20px;
+    font-size: 1.6rem;
+    text-align: center;
+    min-width: 50px;
+  }
+
+  .numwhite {
+    color: white;
+    font-weight: bold;
+  }
+
+  .days {
+    font-size: 1rem;
+    color: white;
+  }
+
+  .opas {
+    opacity: 0.4;
+    transition: opacity 0.4s ease-in-out;
+  }
+
+  .projectTitle {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .container {
+      margin: 0 auto;
+      width: 100%;
+      height: 368px;
+      max-width: 100%;
+    }
+
+    .color {
+      height: 368px;
+    }
+  }
+}
